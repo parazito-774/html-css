@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./source-sans-pro/SourceSansPro-ExtraLight.otf);
+}
+:root {
+  font-family: myFirstFont;
+}
+
+.first {
+  background-image: url("./Desktop_Backgrounds_1920x1200_6\ 3.png");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: myFirstFont;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  font-weight: 2;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 52px;
+  padding-right: 397px;
+  padding-left: 155px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-family: url(./source-sans-pro/SourceSansPro-Regular.otf);
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 2.8;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.herobox-1 {
+  margin: 0 auto;
+  width: 420px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.text1 {
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.text1 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+}
+
+.hero-p {
+  font-family: myFirstFont;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.7);
+  word-spacing: 10px;
+}
+
+.second {
+  background-color: #eeeeee;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 87px;
+  padding-left: 102px;
+  padding-right: 116px;
+}
+
+.first-box {
+  height: 119px;
+  width: 663px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.Main-text {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  color: #464547;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+.second-box {
+  height: 57px;
+  width: 426px;
+  padding: 30px;
+  text-align: center;
+}
+.text-p {
+  font-family: myFirstFont;
+  font-size: 22px;
+  line-height: 32px;
+  color: #666666;
+}
+.third-box {
+  margin-top: 70px;
+  height: 175px;
+  width: 983px;
+  padding-left: 102px;
+}
+
+.third-box-p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  color: #000000;
+}
+.btn-box {
+  padding-top: 44px;
+}
+
+.btn {
+  width: 115px;
+  height: 36px;
+  padding: 5px 17px 6px 18px;
+  background-color: #55c2d8;
+  font-size: 14px;
+  line-height: 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.third {
+  position: relative;
+  background-image: url(./Mask\ Group.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8c4f2a;
+  height: 100vh; 
+  
+}
+
+.text3 {
+  width: 480px;
+  height: 492px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 84px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-3 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+.playBtn {
+  width: 150px;
+  height: 300px;
+  background-color: #39c2d7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 35px solid #fff;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+}
+
+.third-p {
+  font-family: myFirstFont;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  word-spacing: 10px;
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(140, 79, 42, 0.29);
+}
+
+.footer {
+  position: relative;
+  height: 170px;
+  width: 100vw;
+  background-color: #464547;
+}
+.footer-box1 {
+  display: flex;
+  align-items: center;
+  padding-left: 145px;
+  padding-top: 20px;
+  width: 128px;
+  height: 20px;
+}
+.footer-logo {
+  height: 20px;
+  width: 20px;
+  margin-right: 16px;
+}
+
+.h6 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.footer-box2 {
+  padding-left: 140px;
+  padding-top: 24px;
+}
+.textbox {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.mail {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
